@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Backstage</title>
+
+  <!-- Bootstrap-CDN CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <!-- Material icon -->
+  <!-- <i class="material-icons">face</i> -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <link rel="stylesheet" href="all.css">
+</head>
+
+<body>
+  <!-- sidebar -->
+  <nav class="sidebar link-hover d-flex flex-column justify-content-between">
+    <div>
+      <h1 class="mb-5"><a href="#"><img src="images/logo-ANSWER.svg" alt=""></a></h1>
+      <ul class="list-unstyled">
+        <li>
+          <a href="#" class="listItem mb-4 text-decoration-none font-weight-bold d-flex">
+            <span class="material-icons mr-3">insert_chart</span>
+            Question
+          </a>
+        </li>
+        <li>
+          <a href="#" class="listItem mb-4 text-decoration-none font-weight-bold d-flex">
+            <span class="material-icons mr-3">forum</span>
+            Dashboard
+          </a>
+        </li>
+        <li>
+          <a href="index.html" class="listItem mb-4 text-decoration-none font-weight-bold d-flex">
+            <span class="material-icons mr-3">assignment</span>
+            Assignment
+          </a>
+        </li>
+        <li>
+          <a href="#" class="listItem mb-4 text-decoration-none font-weight-bold d-flex">
+            <span class="material-icons mr-3">video_library</span>
+            Course
+          </a>
+        </li>
+        <li>
+          <a href="admin.html" class="listItem mb-4 text-decoration-none font-weight-bold d-flex">
+            <span class="material-icons mr-3">supervisor_account</span>
+            Admin
+          </a>
+        </li>
+        <li>
+          <a href="#" class="listItem text-decoration-none font-weight-bold d-flex">
+            <span class="material-icons mr-3">settings</span>
+            Settings
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="d-flex align-items-center">
+      <img class="userLogo" src="images/photo-1514794749374-fb67509dbb7f.jpg" alt="">
+      <div>
+        <p class="m-0 font-weight-bold">Andy Chen</p>
+        <p class="m-0">andy0401@mail.com</p>
+      </div>
+    </div>
+  </nav>
+
+  <!-- adminContent -->
+  <div class="adminContent">
+    <!-- header -->
+    <div class="adminHeader d-flex align-items-center">
+      <h4>Admin</h4>
+      <div class="dropdown mr-auto">
+        <button class="btn d-flex align-items-center" href="#" role="button" id="dropdownMenuLink"
+          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <span class="material-icons">add</span>
+          Add New Admin
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </div>
+      <div class="headerIcon link-hover">
+        <a href="#"><span class="material-icons mr-4">search</span></a>
+        <a href="#"><span class="material-icons">notifications_active</span></a>
+      </div>
+    </div>
+
+    <!-- table -->
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th scope="col">
+            ID
+            <span class="tableIcon material-icons mr-4">arrow_downward</span>
+          </th>
+          <th scope="col">Name</th>
+          <th scope="col">Email</th>
+          <th scope="col">Verified</th>
+          <th scope="col"></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">#1</th>
+          <td>Emir Wicks</td>
+          <td>emir.wicks@mail.com</td>
+          <td>Yes</td>
+          <td class="d-flex justify-content-end">
+            <span class="material-icons mr-4">remove_red_eye</span>
+            <span class="material-icons mr-4">edit</span>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">#2</th>
+          <td>Zaina Goldsmith</td>
+          <td>zaina.goldsmith@mail.com</td>
+          <td>Yes</td>
+          <td class="d-flex justify-content-end">
+            <span class="material-icons mr-4">remove_red_eye</span>
+            <span class="material-icons mr-4">edit</span>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">#3</th>
+          <td>Mahima Lopez</td>
+          <td>Mahima.Lopez@mail.com</td>
+          <td>Yes</td>
+          <td class="d-flex justify-content-end">
+            <span class="material-icons mr-4">remove_red_eye</span>
+            <span class="material-icons mr-4">edit</span>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">#4</th>
+          <td>Pharrell Murray</td>
+          <td>Pharrell.Murray@mail.com</td>
+          <td>Yes</td>
+          <td class="d-flex justify-content-end">
+            <span class="material-icons mr-4">remove_red_eye</span>
+            <span class="material-icons mr-4">edit</span>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">#5</th>
+          <td>Annika Mcbride</td>
+          <td>Annika.Mcbride@mail.com</td>
+          <td>Yes</td>
+          <td class="d-flex justify-content-end">
+            <span class="material-icons mr-4">remove_red_eye</span>
+            <span class="material-icons mr-4">edit</span>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">#6</th>
+          <td>Fatimah Clark</td>
+          <td>Fatimah.Clark@mail.com</td>
+          <td>Yes</td>
+          <td class="d-flex justify-content-end">
+            <span class="material-icons mr-4">remove_red_eye</span>
+            <span class="material-icons mr-4">edit</span>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">#7</th>
+          <td>Klaudia Rhodes</td>
+          <td>Klaudia.Rhodes@mail.com</td>
+          <td>Yes</td>
+          <td class="d-flex justify-content-end">
+            <span class="material-icons mr-4">remove_red_eye</span>
+            <span class="material-icons mr-4">edit</span>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">#8</th>
+          <td>Tillie Lucero</td>
+          <td>Tillie.Lucero@mail.com</td>
+          <td>Yes</td>
+          <td class="d-flex justify-content-end">
+            <span class="material-icons mr-4">remove_red_eye</span>
+            <span class="material-icons mr-4">edit</span>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">#9</th>
+          <td>Sabrina Stephenson</td>
+          <td>Sabrina.Stephenson@mail.com</td>
+          <td>Yes</td>
+          <td class="d-flex justify-content-end">
+            <span class="material-icons mr-4">remove_red_eye</span>
+            <span class="material-icons mr-4">edit</span>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">#10</th>
+          <td>Annie Smith</td>
+          <td>Annie.Smith@mail.com</td>
+          <td>Yes</td>
+          <td class="d-flex justify-content-end">
+            <span class="material-icons mr-4">remove_red_eye</span>
+            <span class="material-icons mr-4">edit</span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- admin 底部分頁 -->
+    <div class="d-flex justify-content-end">
+      <nav aria-label="Page navigation example">
+        <ul class="pagination">
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Previous">
+              <span class="material-icons">chevron_left</span>
+            </a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+              <span class="material-icons">chevron_right</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+
+  <!-- Bootstrap-CDN JS、jQuery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+    integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

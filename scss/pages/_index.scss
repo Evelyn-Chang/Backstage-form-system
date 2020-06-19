@@ -1,0 +1,100 @@
+// 主要內容
+main {
+  width: 100%;
+  margin-left: 296px;
+  padding: 38px 32px 32px 32px;
+  .btn.focus, .btn:focus{
+    box-shadow: none;
+  }
+  // header
+  header {
+    margin-bottom: 44px;
+    h4 {
+      margin: 0;
+      margin-right: 46px;
+    }
+    a {
+      padding: 0;
+    }
+    .dropdown {
+      span {
+        color: $successText;
+      }
+    }
+  }
+  // content
+  .content {
+    p {
+      margin: 0;
+    }
+    .dropdown {
+      span {
+        color: $successText;
+      }
+    }
+    // col-4
+    .list-group-item {
+      padding: 12px;
+      p, span {
+        font-size: 12px;
+      }
+      span {
+        color: $secondaryText;
+      }
+      h6 {
+        margin-bottom: 0;
+      }
+    }
+    .list-group-item.active {
+      background-color: $primaryColor;
+      border-color: $secondaryColor;
+      color: $primaryText;
+    }
+    // col-8
+    .card-header {
+      p:first-child {
+        font-size: 12px;
+      }
+    }
+    .card-body {
+      img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+      }
+      .media-body {
+        h6 {
+          margin-bottom: 0;
+          margin-bottom: 4px;
+        }
+        span {
+          color: $secondaryText;
+          margin-bottom: 1rem;
+        }
+        p {
+          margin-top: 1rem;
+        }
+        .fileButton {
+          background-color: $primaryColor;
+          border-color: $secondaryColor;
+          margin-top: 1rem;
+          font-weight: bold;
+          i {
+            vertical-align: middle;
+          }
+        }
+      }
+    }
+    // contentFooter
+    .contentFooter {
+      .btn-outline-primary {
+        color: $successText;
+        border-color: $successText;
+        &:hover {
+          background-color: $successText;
+          color: #fff;
+        }
+      }
+    }
+  }
+}

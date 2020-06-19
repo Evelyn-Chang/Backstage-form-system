@@ -1,0 +1,66 @@
+// adminContent
+.adminContent {
+  margin-left: 296px;
+  padding: 44px 32px 32px 32px;
+  .btn.focus, .btn:focus{
+    box-shadow: none;
+  }
+  // header
+  .adminHeader {
+    margin-bottom: 32px;
+    .btn {
+      padding: 0;
+    }
+    .dropdown {
+      span {
+        padding: 0 8px 0 47px;
+        color: #2A8356;
+      }
+    }
+  }
+  // table
+  table {
+    thead {
+      th {
+        padding: 4px 0.75rem;
+        border-top: 0;
+        border-bottom: 2px solid #121212;
+      }
+    }
+    tbody {
+      tr:last-child {
+        border-bottom: 1px solid #dee2e6;
+      }
+    }
+    margin-bottom: 0;
+    margin-bottom: 67px;
+    .tableIcon {
+      font-size: 12px;
+      color: $successText;
+    }
+  }
+  // admin 底部分頁
+  .pagination {
+    margin-bottom: 0;
+    li:first-child,
+    li:last-child {
+      .page-link {
+        padding: .35rem .3rem;
+        color: $successText;
+      }
+    }
+    .page-item {
+      :hover {
+        color: #fff;
+        background-color: $successText;
+      }
+    }
+    .page-link {
+      color: $primaryText;
+      border: 1px solid $successText;
+      span {
+        vertical-align: middle;
+      }
+    }
+  }
+}

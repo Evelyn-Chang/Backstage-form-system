@@ -1,0 +1,13 @@
+//layout 
+.sidebar {
+  width: 296px;
+  padding: 32px;
+  background-color: $primaryColor;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  
+  p:last-child {
+    color: $secondaryText;
+  }
+}

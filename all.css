@@ -1,0 +1,203 @@
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.userLogo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.link-hover a {
+  color: #121212;
+}
+
+.link-hover a:hover {
+  color: #2A8356;
+}
+
+.sidebar {
+  width: 296px;
+  padding: 32px;
+  background-color: #EDF4EE;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+}
+
+.sidebar p:last-child {
+  color: #0000009A;
+}
+
+main {
+  width: 100%;
+  margin-left: 296px;
+  padding: 38px 32px 32px 32px;
+}
+
+main .btn.focus, main .btn:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+main header {
+  margin-bottom: 44px;
+}
+
+main header h4 {
+  margin: 0;
+  margin-right: 46px;
+}
+
+main header a {
+  padding: 0;
+}
+
+main header .dropdown span {
+  color: #2A8356;
+}
+
+main .content p {
+  margin: 0;
+}
+
+main .content .dropdown span {
+  color: #2A8356;
+}
+
+main .content .list-group-item {
+  padding: 12px;
+}
+
+main .content .list-group-item p, main .content .list-group-item span {
+  font-size: 12px;
+}
+
+main .content .list-group-item span {
+  color: #0000009A;
+}
+
+main .content .list-group-item h6 {
+  margin-bottom: 0;
+}
+
+main .content .list-group-item.active {
+  background-color: #EDF4EE;
+  border-color: #CDDDCD;
+  color: #121212;
+}
+
+main .content .card-header p:first-child {
+  font-size: 12px;
+}
+
+main .content .card-body img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+main .content .card-body .media-body h6 {
+  margin-bottom: 0;
+  margin-bottom: 4px;
+}
+
+main .content .card-body .media-body span {
+  color: #0000009A;
+  margin-bottom: 1rem;
+}
+
+main .content .card-body .media-body p {
+  margin-top: 1rem;
+}
+
+main .content .card-body .media-body .fileButton {
+  background-color: #EDF4EE;
+  border-color: #CDDDCD;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+main .content .card-body .media-body .fileButton i {
+  vertical-align: middle;
+}
+
+main .content .contentFooter .btn-outline-primary {
+  color: #2A8356;
+  border-color: #2A8356;
+}
+
+main .content .contentFooter .btn-outline-primary:hover {
+  background-color: #2A8356;
+  color: #fff;
+}
+
+.adminContent {
+  margin-left: 296px;
+  padding: 44px 32px 32px 32px;
+}
+
+.adminContent .btn.focus, .adminContent .btn:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.adminContent .adminHeader {
+  margin-bottom: 32px;
+}
+
+.adminContent .adminHeader .btn {
+  padding: 0;
+}
+
+.adminContent .adminHeader .dropdown span {
+  padding: 0 8px 0 47px;
+  color: #2A8356;
+}
+
+.adminContent table {
+  margin-bottom: 0;
+  margin-bottom: 67px;
+}
+
+.adminContent table thead th {
+  padding: 4px 0.75rem;
+  border-top: 0;
+  border-bottom: 2px solid #121212;
+}
+
+.adminContent table tbody tr:last-child {
+  border-bottom: 1px solid #dee2e6;
+}
+
+.adminContent table .tableIcon {
+  font-size: 12px;
+  color: #2A8356;
+}
+
+.adminContent .pagination {
+  margin-bottom: 0;
+}
+
+.adminContent .pagination li:first-child .page-link,
+.adminContent .pagination li:last-child .page-link {
+  padding: .35rem .3rem;
+  color: #2A8356;
+}
+
+.adminContent .pagination .page-item :hover {
+  color: #fff;
+  background-color: #2A8356;
+}
+
+.adminContent .pagination .page-link {
+  color: #121212;
+  border: 1px solid #2A8356;
+}
+
+.adminContent .pagination .page-link span {
+  vertical-align: middle;
+}
+/*# sourceMappingURL=all.css.map */
